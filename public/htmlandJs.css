@@ -1,0 +1,41 @@
+body {
+  font-family: "Shojumaru", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  color: #663300;
+}
+p {
+  color: #666666;
+}
+h2 {
+  color: #990000;
+}
+#button {
+  background-color: #333333;
+  border: #000000;
+  color: #888888;
+  padding: 10px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+#button2 {
+  background-color: #331a00;
+  border: #000000;
+  color: #888888;
+  padding: 10px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+#button3 {
+  background-color: #4d0000;
+  border: #000000;
+  color: #888888;
+  padding: 10px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}

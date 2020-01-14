@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Computer Science in a website</title>
+    <meta name="description" content="A cool thing made with Glitch" />
+    <link
+      id="favicon"
+      rel="icon"
+      href="https://glitch.com/edit/favicon-app.ico"
+      type="image/x-icon"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- javascript file -->
+    <script src="/htmlandJs.js" defer></script>
+    <!-- google founts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Concert One"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Shojumaru"
+      rel="stylesheet"
+    />
+    <!-- bootstrap link -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- navagation bar  -->
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">ICS3U</a>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="/">Home</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown"
+                  >HTML <span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/htmlGlitch">HTML on Glitch</a></li>
+                  <li><a href="/bootstrap">Bootstrap</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown"
+                  >Java Script <span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/vidcodef">VidCode Final Projects</a></li>
+                  <li><a href="/vidcodep">VidCode Projects</a></li>
+                  <li><a href="/htmlwithjs">HTML with JS</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+                  >More <span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/rasPi">Raspberry Pi Projects</a></li>
+                  <li><a href="/api">API's and If this then that</a></li>
+                  <li><a href="/log">Daily log</a></li>
+                  <li><a href="/aboutMe">About Me</a></li>
+                  <li><a href="signUp">Sign Up</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right"></ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <h1>Be ready for truth</h1>
+
+    <p>
+      When you stop closing your eyes the truth can be faced
+    </p>
+    <h2>What Can we Do?</h2>
+
+    <p id="demo">
+      Peace is not absence of conflict, it is the ability to handle conflict by
+      peaceful means.
+    </p>
+
+    <button id="button" type="button" onclick="myFunction()">
+      Click to see
+    </button>
+
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML =
+          "Now I am become Death, the destroyer of worlds.";
+      }
+    </script>
+    <!–– this code is telling the page that when the button is pressed the paragraph with the id demo will change to line in the script code -->
+
+    <p>The choices is now yours to see a lie</p>
+    <p>
+      or open up to the truth.
+    </p>
+
+    <button
+      id="button2"
+      onclick="document.getElementById('myImage').src='https://www.residencestyle.com/wp-content/uploads/2018/10/Beautiful-Garden.jpg'"
+    >
+      Lie
+    </button>
+    <!-- this code is saying that when the button with the text lie on it is pressed the image will swich to one of a garden -->
+    <img
+      id="myImage"
+      src="https://s3-ap-southeast-1.amazonaws.com/tz-mag-media/wp-content/uploads/2018/11/05162953/0.jpg"
+      style="width:450px"
+    />
+    <!-- this code in the middle is telling the page that the town image is the start and the size of the image-->
+    <button
+      id="button3"
+      onclick="document.getElementById('myImage').src='http://csglobe.com/wp-content/uploads/2016/10/Ex-general-says-NATO-Russia-nuclear-war-possible-within-a-year.jpg'"
+    >
+      Truth
+    </button>
+    <!-- this code is saying when the button with the  text truth on it is pressed the image will switch to a image of a nuclear war-->
+
+    <!-- first projected using external js -->
+    <p2>External JavaScript - external js project</p2>
+    <p id="demo0">A Paragraph.</p>
+    <button type="button" onclick="myFunction()">Try it</button>
+    <p>(myFunction is stored in an external file called "myScript.js")</p>
+    <script src="myScript.js"></script>
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+  </body>
+</html>
